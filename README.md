@@ -6,9 +6,9 @@
 1. Go to website
 https://colab.research.google.com/drive/17S4F_rFjTlEmM8dIhCk-P72o6aUNlAoS#scrollTo=DDpG9jtV2EM2
 
-2. And click the 
+2. And click the play icon
 ![image](https://user-images.githubusercontent.com/47118475/176946153-033ee66e-d772-48b8-9721-051bf6ccae4e.png)
-to run the NLP prediction tool (text classifer)
+to run the NLP prediction algorithm (text classifer)
 
 3. Enter the movie review and the program will predict the result either positive or negative.
 
