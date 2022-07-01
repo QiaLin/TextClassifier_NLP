@@ -17,3 +17,5 @@ to run the NLP prediction algorithm (text classifer)
 5. Enter your movie comments in white block
 ![image](https://user-images.githubusercontent.com/47118475/176946609-dae7bc5b-cc98-4b22-a765-f4cc7b87fe3e.png)
 
+6.Result
+![image](https://user-images.githubusercontent.com/47118475/176953285-9b0b31c4-ff88-435b-be02-a5abcd4821e3.png)
