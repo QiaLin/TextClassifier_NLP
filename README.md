@@ -9,7 +9,7 @@ https://colab.research.google.com/drive/17S4F_rFjTlEmM8dIhCk-P72o6aUNlAoS?usp=sh
 ![image](https://user-images.githubusercontent.com/47118475/176946153-033ee66e-d772-48b8-9721-051bf6ccae4e.png)
 to run the NLP prediction algorithm (text classifer)
 
-Then click run anyway
+  Then click run anyway
 ![image](https://user-images.githubusercontent.com/47118475/176953478-930a86f7-a341-4ccb-8d41-a80f4f828db6.png)
 
 3. Enter the movie review and the program will predict the result either positive or negative.
