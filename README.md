@@ -1,6 +1,5 @@
 # TextClassifier_NLP
-
-
+### To predict your movie comment is either positive or negative with 78+% accuracy rate.
 ## How to run program
 
 1. Go to website
@@ -14,3 +13,7 @@ to run the NLP prediction algorithm (text classifer)
 
 4.Wait and it would take serveral seconds to train the data and predict your input
 ![image](https://user-images.githubusercontent.com/47118475/176946463-70477ee5-9fd5-47cd-8826-60c11978e6de.png)
+
+5. Enter your movie comments
+![image](https://user-images.githubusercontent.com/47118475/176946609-dae7bc5b-cc98-4b22-a765-f4cc7b87fe3e.png)
+
