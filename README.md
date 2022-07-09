@@ -1,5 +1,5 @@
 # TextClassifier_NLP
-### To predict your movie comment is either positive or negative with 78+% accuracy rate using bayes classifier
+### To predict your movie comment is either positive or negative with 78%+ accuracy rate using bayes classifier
 ## How to run program
 
 1. Go to website
