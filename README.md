@@ -13,7 +13,7 @@ Then click run anyway
 
 3. Enter the movie review and the program will predict the result either positive or negative.
 
-4.Wait and it would take serveral seconds to train the data and predict your input
+4. Wait and it would take serveral seconds to train the data and predict your input
 ![image](https://user-images.githubusercontent.com/47118475/176946463-70477ee5-9fd5-47cd-8826-60c11978e6de.png)
 
 5. Enter your movie comments in white block
