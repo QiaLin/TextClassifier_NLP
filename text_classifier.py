@@ -12,8 +12,8 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 
-#nltk.download('all')
-! python -m nltk.downloader stopwords
+! nltk.download('stopwords')
+
 wn = nltk.WordNetLemmatizer()
 ps = nltk.PorterStemmer()
 #warning
