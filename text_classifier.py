@@ -274,27 +274,32 @@ def main():
     
     print("\n\n\n\nRun the program sucessfully!!!! \n\n\n\nPlease wait when we training the dataset... (Training the algorithm takes roughly few seconds) !!!!!\n\n\n\n")
     ### begin perform backend task
-    for i in tqdm (range (100), desc="Loading..."):
-        #read from file and get the data frame
-        df = read_user_csv("movie_reviews.csv")
+    pbar = tqdm(total=100)
+    #read from file and get the data frame
+    df = read_user_csv("movie_reviews.csv")
+    
+    ## 1. preprocess data set
+    pbar.update(20)
+    df_upsampled = preprocessing_dataset(df)
 
-        ## 1. preprocess data set
-        df_upsampled = preprocessing_dataset(df)
+    ## 2. split the data
+    pbar.update(40)
+    from sklearn.model_selection import train_test_split
+    X_train, X_test, y_train, y_test = train_test_split(df_upsampled['review'], df_upsampled['sentiment'], test_size=0.5, random_state=1)
 
-        ## 2. split the data
-        from sklearn.model_selection import train_test_split
-        X_train, X_test, y_train, y_test = train_test_split(df_upsampled['review'], df_upsampled['sentiment'], test_size=0.5, random_state=1)
-
-        ## 3. label the data
-        output_map = {'positive': 0, 'negative': 1} ## With the use of mapping function, we replace the label in the form of string to an integer.
-        y_train = y_train.map(output_map)
-        y_test = y_test.map(output_map)
-        ## 4. training data set
-        freqs = review_counter({}, X_train, y_train)
-        logprior, loglikelihood = train_naive_bayes(freqs, X_train, y_train)
-        ## LSTM
-        savedModel=load_model('lstm_classifier.h5')
+    ## 3. label the data
+    pbar.update(60)
+    output_map = {'positive': 0, 'negative': 1} ## With the use of mapping function, we replace the label in the form of string to an integer.
+    y_train = y_train.map(output_map)
+    y_test = y_test.map(output_map)
+    ## 4. training data set
+    pbar.update(80)
+    freqs = review_counter({}, X_train, y_train)
+    logprior, loglikelihood = train_naive_bayes(freqs, X_train, y_train)
+    ## LSTM
+    savedModel=load_model('lstm_classifier.h5')
     ### end perform backend task
+    pbar.update(100)
     print("Train the algorithm sucessfully!!!!\n")
 
    
