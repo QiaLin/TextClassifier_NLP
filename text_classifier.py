@@ -11,7 +11,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
-
+from tensorflow.keras.models import load_model
 
 
 
