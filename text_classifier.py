@@ -13,7 +13,7 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 
 ##LSTM
-! pip install tqdm
+!pip install tqdm
 from tqdm import tqdm
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
