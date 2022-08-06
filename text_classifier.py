@@ -291,6 +291,8 @@ def main():
     logprior, loglikelihood = train_naive_bayes(freqs, X_train, y_train)
     print("Train the algorithm sucessfully!!!!\n")
    
+    savedModel=load_model('lstm_classifier.h5')
+    
     
     while True:
         val = input("Enter your comment to get the predict outcome (Enter Q to quit): \n")
