@@ -283,23 +283,23 @@ def main():
     df_upsampled = preprocessing_dataset(df)
 
     ## 2. split the data
-    pbar.update(40)
+    pbar.update(20)
     from sklearn.model_selection import train_test_split
     X_train, X_test, y_train, y_test = train_test_split(df_upsampled['review'], df_upsampled['sentiment'], test_size=0.5, random_state=1)
 
     ## 3. label the data
-    pbar.update(60)
+    pbar.update(20)
     output_map = {'positive': 0, 'negative': 1} ## With the use of mapping function, we replace the label in the form of string to an integer.
     y_train = y_train.map(output_map)
     y_test = y_test.map(output_map)
     ## 4. training data set
-    pbar.update(80)
+    pbar.update(20)
     freqs = review_counter({}, X_train, y_train)
     logprior, loglikelihood = train_naive_bayes(freqs, X_train, y_train)
     ## LSTM
     savedModel=load_model('lstm_classifier.h5')
     ### end perform backend task
-    pbar.update(100)
+    pbar.update(20)
     print("Train the algorithm sucessfully!!!!\n")
 
    
