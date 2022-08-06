@@ -290,8 +290,7 @@ def main():
     ## 4. training data set
     freqs = review_counter({}, X_train, y_train)
     for i in tqdm (range (100), desc="Loading..."):
-        pass
-    logprior, loglikelihood = train_naive_bayes(freqs, X_train, y_train)
+        logprior, loglikelihood = train_naive_bayes(freqs, X_train, y_train)
 
     print("Train the algorithm sucessfully!!!!\n")
 
