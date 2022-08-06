@@ -289,9 +289,11 @@ def main():
     y_test = y_test.map(output_map)
     ## 4. training data set
     freqs = review_counter({}, X_train, y_train)
-    logprior, loglikelihood = train_naive_bayes(freqs, X_train, y_train)
     for i in tqdm (range (100), desc="Loading..."):
-         print("Train the algorithm sucessfully!!!!\n")
+        pass
+    logprior, loglikelihood = train_naive_bayes(freqs, X_train, y_train)
+
+    print("Train the algorithm sucessfully!!!!\n")
 
    
     savedModel=load_model('lstm_classifier.h5')
