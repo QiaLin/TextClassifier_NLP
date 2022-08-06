@@ -12,7 +12,7 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 
-nltk.download('stopwords')
+nltk.download('all')
 
 wn = nltk.WordNetLemmatizer()
 ps = nltk.PorterStemmer()
