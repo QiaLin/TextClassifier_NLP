@@ -11,7 +11,6 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
-nltk.set_proxy('http://proxy.example.com:3128', ('USERNAME', 'PASSWORD'))
 nltk.download('wordnet')
 nltk.download('stopwords')
 
