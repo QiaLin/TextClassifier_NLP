@@ -1,0 +1,87 @@
+{
+  "projects": [
+    {
+      "title": "AI Self-Driving Car Simulator & Neural Network Visualizer - No Libraries Required",
+      "description": "Embark on an immersive gaming experience with NeuroDrive, where you code neural networks to navigate virtual roads, witnessing real-time learning as your AI drives, offering insights into its decision-making process, all while venturing into the future of transportation gaming.",
+      "image": "/images/bestAIcar.png",
+      "tags": ["NeuralNetwork", "JavaScript", "HTML", "CSS"],
+      "source": "https://github.com/QiaLin/Self-Driving-AI-Car",
+      "visit": "/qialinaicar.html",
+      "id": 0
+    },
+    {
+      "title": "MoodsWall.com",
+      "description": "Unlike Meta, MoodsWall.com created by Qia Lin provides a dedicated, open platform for WebApp users to freely share their mood without targeting specific interest groups, offering a refreshing departure from restrictive circle-specific pages.",
+      "image": "/images/fixsizemoodswall.png",
+      "tags": ["Nodejs", "React", "MongoDB", "FullStack"],
+      "source": "https://moodswall.com",
+      "visit": "https://moodswall.com",
+      "id": 1
+    },
+    {
+      "title": "MyJobSearch Android Mobile App",
+      "description": "One-Click Job Search Android App Mobile Application built with Restful API and Java.",
+      "image": "/images/5.png",
+      "tags": ["Java", "Android", "RESTful API"],
+      "source": "https://github.com/QiaLin/MyJobSearch_AndroidMobileApp",
+      "visit": "/MyJobSearch_AndroidVersion.apk",
+      "id": 2
+    },
+    {
+      "title": "AI Prediction in Sentiment of Movie Comments - NLP",
+      "description": "Enter your movie reviews and Ai will predict either positive or negative reveiws of movie comments with accraucy of 87%+ prediction rate using bayesian classifier - a Natural Language Processing techinque",
+      "image": "/images/6.webp",
+      "tags": ["Ai", "NLP", "Python"],
+      "source": "https://github.com/QiaLin/TextClassifier_NLP",
+      "visit": " https://colab.research.google.com/drive/17S4F_rFjTlEmM8dIhCk-P72o6aUNlAoS?usp=sharing&authuser=1",
+      "id": 3
+    },
+    {
+      "title": "Snake Game",
+      "description": "A simple web game for the Snake Game App using HTML5.",
+      "image": "/images/lv_snakegame_pic.png",
+      "tags": ["HTML5", "CSS", "WebApp"],
+      "source": "https://github.com/QiaLin/SnakeGameApp",
+      "visit": "/SnakeGame-Html5.html",
+      "id": 4
+    },
+    {
+      "title": "MERN Memories",
+      "description": "Built with  React, Node.js, Express & MongoDB to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      "image": "/images/1.png",
+      "tags": ["Mongo", "Express", "React", "Node"],
+      "source": "https://github.com/QiaLin/",
+      "visit": "https://github.com/QiaLin/",
+      "id": 5
+    },
+    {
+      "title": "E-Commerce",
+      "description": "Utilized Stripe for card transactions. On top of that, this is a unique webshop app for e-commerce applications are impressive.",
+      "image": "/images/2.png",
+      "tags": ["React", "JavaScript"],
+      "source": "https://github.com/QiaLin/",
+      "visit": "https://github.com/QiaLin/",
+      "id": 6
+    },
+    {
+      "title": "WebRTC App",
+      "description": "Deployed a React Video Chat Application using WebRTC.",
+      "image": "/images/3.jpg",
+      "tags": ["React", "WebRTC"],
+      "source": "https://github.com/QiaLin/",
+      "visit": "https://github.com/QiaLin/",
+      "id": 7
+    }
+  ],
+  "timeLineData": [
+    { "year": 2017, "text": "Started my journey as PSU CS undergrad student" },
+    { "year": 2018, "text": "Worked as a freelance developer" },
+    { "year": 2019, "text": "Worked as an SWE intern" },
+    { "year": 2020, "text": "Presented Ai project in Final NDL Summit leading a team in Nittany Data Lab @ PSU" },
+    { "year": 2021, "text": "Pursued Master Degree in CS @ Northeastern Unviersity" },
+    { "year": 2022, "text": "Shared my projects with the world" },
+    { "year": 2024, "text": "Worked as an SWE intern in Eskuad Inc. - a rewarded Google for Starup company" },
+    { "year": 2024, "text": "Generated MoodsWall.com for global users to share their moods online" }
+  ]
+
+}
