@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "title": "AI Self-Driving Car Simulator & Neural Network Visualizer - No Libraries Required",
+      "title": "ai Self-Driving Car Simulator & Neural Network Visualizer - No Libraries Required",
       "description": "Embark on an immersive gaming experience with NeuroDrive, where you code neural networks to navigate virtual roads, witnessing real-time learning as your AI drives, offering insights into its decision-making process, all while venturing into the future of transportation gaming.",
       "image": "/images/bestAIcar.png",
       "tags": ["NeuralNetwork", "JavaScript", "HTML", "Ai"],
